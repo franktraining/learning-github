@@ -16,6 +16,7 @@ public class JenkinsTest {
 		driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
 		Thread.sleep(10 * 1000);
+		Thread.sleep(1 * 1000);
 		driver.quit();
 	}
 }
