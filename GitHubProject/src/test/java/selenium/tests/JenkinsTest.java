@@ -11,7 +11,7 @@ public class JenkinsTest {
 	
 	@Test
 	public void firstTest() throws InterruptedException
-	{
+	{ //hello i am java
 		System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
